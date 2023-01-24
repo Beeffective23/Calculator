@@ -1,0 +1,53 @@
+body {
+  background-image: url("./chalkboard-with-math-elements_1411-88.webp");
+  background-size: cover;
+  background-position-y: -460px;
+}
+.numbers {
+  display: inline-block;
+}
+.container {
+  height: 265px;
+  max-width: 330px;
+  position: relative;
+  left: 650px;
+  top: 250px;
+}
+
+button {
+  min-width: 70px;
+  /* margin: 5px; */
+  height: 50px;
+  border-color: black;
+  border-width: 1px;
+}
+.result {
+  background-color: rgb(1, 1, 1, 0.6);
+  width: 140px;
+  color: white;
+  position: relative;
+  left: 718px;
+  top: 240px;
+  text-align: center;
+  border-radius: 20px;
+  border-color: white;
+  border-style: dashed;
+}
+button.number0 {
+  width: 140px;
+}
+.calculator {
+  width: 330px;
+}
+
+button.number\+:focus,
+button.number\-:focus,
+button.number\X:focus,
+button.number\/:focus {
+  background-color: aqua;
+  outline: auto;
+}
+
+button:active {
+  background-color: grey;
+}
